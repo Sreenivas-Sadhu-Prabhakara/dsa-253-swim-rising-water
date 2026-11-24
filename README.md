@@ -12,6 +12,13 @@ Dijkstra's proof needs path costs that never decrease as a path extends — true
 
 **Complexity:** O(n² log n) time, O(n²) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
